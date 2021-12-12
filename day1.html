@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+</style>
+</head>
+
+<body>
+    <button onclick="equation()">Click To See Result</button>
+    <input type="number" placeholder="value a" id="number1">
+    <input type="number" placeholder="value b" id="number2">
+    <p id="text"></p>
+    <script>
+        function equation() {
+            let button = document.getElementById('equation')
+            var soa = document.getElementById('number1');
+            var sob = document.getElementById('number2');
+            let a = Number(soa.value)
+            let b = Number(sob.value)
+            var ketqua = -b / a
+            document.getElementById('text').innerHTML = "Result "  + ketqua;
+            if (a == 0 && b == 0){
+                let tResult = document.getElementById('text')
+                tResult.textContent = "Vô số nghiệm!"
+            }
+
+        }
+    </script>
+</body>
+
+</html>
