@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="images"></div>
+
+
+    <script>
+        async function getCats() {
+            const cats = await fetch(
+                'https://api.thecatapi.com/v1/images/search'
+            )
+            const body = await cats.json()
+            console.log(body)
+            return body
+        }
+        function CatImg(cats) {
+            
+            let catPrint = '';
+            cats.forEach( function (cats) {
+                catPrint =  catPrint +` <img src=${cats.url} alt=''/>`;
+            });
+
+
+            const img = document.getElementById('images').innerHTML = catPrint;
+        }
+        getCats().then((cats) => CatImg(cats))
+
+
+
+    </script>
+</body>
+
+</html>
