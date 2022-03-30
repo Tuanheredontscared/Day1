@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@300&family=Mukta&family=Nunito:ital,wght@1,300&family=Raleway:ital,wght@1,300&display=swap');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 10px;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.gray-part {
+    background-color: grey;
+    height: 600px;
+    
+
+}
+
+h1 {
+    padding-left: 10px;
+    display: inline;
+    font-size: 50px;
+}
+
+.daoly {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.daoly1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.love {
+    text-align: center;
+    display: flex;
+    padding-left: 550px;
+}
+
+.text-in-grey {
+    padding-top: 100px;
+    color: white;
+}
+
+.daoly-btn {
+    text-align: center;
+    width: 3.5cm;
+    height: 1cm;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #555555;
+    color: white;
+    
+}
+
+.div_daoly_btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blue-div {
+    height: 400px;
+    width: 340px;
+    background-color: #EEEEEE;
+    text-align: center;
+
+}
+
+.hihi {
+    text-align: center;
+    display: flex;
+    padding-left: 2.7cm;
+    padding-bottom: cm;
+    padding-top: 1.5cm;
+}
+
+.nav {
+    text-align: right;
+    margin-left: 750px;
+    height: 100px;
+}
+
+.green-div {
+    margin-left: 40px;
+    height: 400px;
+    width: 340px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.red-div{
+    margin-left: 40px;
+    height: 400px;
+    width: 340px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.div-text{
+    padding-top: 5cm;
+}
+#div_heart{
+    padding-left: 10px;
+    padding-top: 40px;
+    width: 90px;
+}
+#part1{
+   display: flex;
+   padding-top: 15px
+}
+
+
